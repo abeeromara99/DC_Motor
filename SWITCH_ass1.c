@@ -98,7 +98,7 @@ int main ()
 					case '1':
 						LCD_voidClearDisplay();
 						LCD_u8GoToXY(1,0);
-						LCD_voidWriteString("1-cw       2-ccw3-Off     4-back");
+						LCD_voidWriteString("1-cw       2-ccw3-Stop    4-back");
 						Local_u8Choose_motor_direction=0;
 						while (Local_u8Choose_motor_direction!=1)
 						{
@@ -124,7 +124,7 @@ int main ()
 									break;
 								case '3':
 									LCD_u8GoToXY(2,0);
-									LCD_voidWriteString("Turn Off");
+									LCD_voidWriteString("Stop");
 									STOP_MOTOR();
 									break;
 								default:
