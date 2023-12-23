@@ -1,5 +1,5 @@
 # DC_Motor
--This project utilizes Atmega32 microcontroller,keypad and LCD (16x2) character and DC_Motor    
+-This project utilizes Atmega32 microcontroller,keypad,LCD (16x2)character and DC_Motor    
 # Driver Implemented:  
 1-DIO driver    
 2-LCD driver    
